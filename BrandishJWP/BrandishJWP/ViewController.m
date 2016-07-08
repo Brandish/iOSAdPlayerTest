@@ -42,8 +42,8 @@
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
     [webView loadRequest:urlRequest];
-    
     [self.view addSubview:webView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
