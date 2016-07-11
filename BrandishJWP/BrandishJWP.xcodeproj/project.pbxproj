@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442E93F477037B5009963BCD /* libPods-BrandishJWP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E7603CCA9308256C2FC914 /* libPods-BrandishJWP.a */; };
+		66394E0983F2529E5AC69237 /* libPods-BrandishJWPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADC567A4D9999D668AB3A54 /* libPods-BrandishJWPUITests.a */; };
+		754EAE17D5201D7FE91A33B6 /* libPods-BrandishJWPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80539C7579726C1CC736EC98 /* libPods-BrandishJWPTests.a */; };
 		D076B0081CCED6D8001358FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D076B0071CCED6D8001358FA /* main.m */; };
 		D076B00B1CCED6D8001358FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D076B00A1CCED6D8001358FA /* AppDelegate.m */; };
 		D076B00E1CCED6D8001358FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D076B00D1CCED6D8001358FA /* ViewController.m */; };
@@ -15,6 +18,10 @@
 		D076B0161CCED6D8001358FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D076B0141CCED6D8001358FA /* LaunchScreen.storyboard */; };
 		D076B0211CCED6D8001358FA /* BrandishJWPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D076B0201CCED6D8001358FA /* BrandishJWPTests.m */; };
 		D076B02C1CCED6D8001358FA /* BrandishJWPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D076B02B1CCED6D8001358FA /* BrandishJWPUITests.m */; };
+		D0C2171D1D3432970002CC14 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C2171C1D3432970002CC14 /* SystemConfiguration.framework */; };
+		D0C217241D3433E10002CC14 /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C2171F1D3433E10002CC14 /* NSString+Sha1.m */; };
+		D0C217251D3433E10002CC14 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C217211D3433E10002CC14 /* Reachability.m */; };
+		D0C217261D3433E10002CC14 /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C217231D3433E10002CC14 /* RNCachingURLProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E7603CCA9308256C2FC914 /* libPods-BrandishJWP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrandishJWP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADC567A4D9999D668AB3A54 /* libPods-BrandishJWPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrandishJWPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D2B579C4EE3642D6593533 /* Pods-BrandishJWPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandishJWPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrandishJWPTests/Pods-BrandishJWPTests.release.xcconfig"; sourceTree = "<group>"; };
+		52983EC0F6D9E0855F54C6AB /* Pods-BrandishJWP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandishJWP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrandishJWP/Pods-BrandishJWP.debug.xcconfig"; sourceTree = "<group>"; };
+		80539C7579726C1CC736EC98 /* libPods-BrandishJWPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrandishJWPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5A8DB7C9F1BADC439AF80F /* Pods-BrandishJWPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandishJWPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrandishJWPUITests/Pods-BrandishJWPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4BBB9FAAF36642512117CD5 /* Pods-BrandishJWP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandishJWP.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrandishJWP/Pods-BrandishJWP.release.xcconfig"; sourceTree = "<group>"; };
+		AB0B09B8691C648386949127 /* Pods-BrandishJWPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandishJWPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrandishJWPTests/Pods-BrandishJWPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D076B0031CCED6D7001358FA /* BrandishJWP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandishJWP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D076B0071CCED6D8001358FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D076B0091CCED6D8001358FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,14 @@
 		D076B0271CCED6D8001358FA /* BrandishJWPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandishJWPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D076B02B1CCED6D8001358FA /* BrandishJWPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandishJWPUITests.m; sourceTree = "<group>"; };
 		D076B02D1CCED6D8001358FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C2171C1D3432970002CC14 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D0C2171E1D3433E10002CC14 /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
+		D0C2171F1D3433E10002CC14 /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
+		D0C217201D3433E10002CC14 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D0C217211D3433E10002CC14 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D0C217221D3433E10002CC14 /* RNCachingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCachingURLProtocol.h; sourceTree = "<group>"; };
+		D0C217231D3433E10002CC14 /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
+		ED31A8B1C81B745E8BA0125D /* Pods-BrandishJWPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandishJWPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrandishJWPUITests/Pods-BrandishJWPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C2171D1D3432970002CC14 /* SystemConfiguration.framework in Frameworks */,
+				442E93F477037B5009963BCD /* libPods-BrandishJWP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754EAE17D5201D7FE91A33B6 /* libPods-BrandishJWPTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66394E0983F2529E5AC69237 /* libPods-BrandishJWPUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B43CE6A00ED485A830B7BC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52983EC0F6D9E0855F54C6AB /* Pods-BrandishJWP.debug.xcconfig */,
+				A4BBB9FAAF36642512117CD5 /* Pods-BrandishJWP.release.xcconfig */,
+				AB0B09B8691C648386949127 /* Pods-BrandishJWPTests.debug.xcconfig */,
+				29D2B579C4EE3642D6593533 /* Pods-BrandishJWPTests.release.xcconfig */,
+				ED31A8B1C81B745E8BA0125D /* Pods-BrandishJWPUITests.debug.xcconfig */,
+				9D5A8DB7C9F1BADC439AF80F /* Pods-BrandishJWPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD6C1A938E757A553997B8A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C2171C1D3432970002CC14 /* SystemConfiguration.framework */,
+				00E7603CCA9308256C2FC914 /* libPods-BrandishJWP.a */,
+				80539C7579726C1CC736EC98 /* libPods-BrandishJWPTests.a */,
+				0ADC567A4D9999D668AB3A54 /* libPods-BrandishJWPUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D02C128B1CCFC5640087C7A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +143,8 @@
 				D076B01F1CCED6D8001358FA /* BrandishJWPTests */,
 				D076B02A1CCED6D8001358FA /* BrandishJWPUITests */,
 				D076B0041CCED6D7001358FA /* Products */,
+				BD6C1A938E757A553997B8A2 /* Frameworks */,
+				6B43CE6A00ED485A830B7BC0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +161,12 @@
 		D076B0051CCED6D8001358FA /* BrandishJWP */ = {
 			isa = PBXGroup;
 			children = (
+				D0C2171E1D3433E10002CC14 /* NSString+Sha1.h */,
+				D0C2171F1D3433E10002CC14 /* NSString+Sha1.m */,
+				D0C217201D3433E10002CC14 /* Reachability.h */,
+				D0C217211D3433E10002CC14 /* Reachability.m */,
+				D0C217221D3433E10002CC14 /* RNCachingURLProtocol.h */,
+				D0C217231D3433E10002CC14 /* RNCachingURLProtocol.m */,
 				D02C128B1CCFC5640087C7A2 /* Resources */,
 				D076B0091CCED6D8001358FA /* AppDelegate.h */,
 				D076B00A1CCED6D8001358FA /* AppDelegate.m */,
@@ -155,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D076B0301CCED6D8001358FA /* Build configuration list for PBXNativeTarget "BrandishJWP" */;
 			buildPhases = (
+				9203B0EAC24FDE41CF278467 /* 📦 Check Pods Manifest.lock */,
 				D076AFFF1CCED6D7001358FA /* Sources */,
 				D076B0001CCED6D7001358FA /* Frameworks */,
 				D076B0011CCED6D7001358FA /* Resources */,
+				7B8B34BF2B8D6EA7B1901B10 /* 📦 Embed Pods Frameworks */,
+				40E7E3AECAF753CA92209BCA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D076B0331CCED6D8001358FA /* Build configuration list for PBXNativeTarget "BrandishJWPTests" */;
 			buildPhases = (
+				6CF5B80CF4022500297F4ADC /* 📦 Check Pods Manifest.lock */,
 				D076B0181CCED6D8001358FA /* Sources */,
 				D076B0191CCED6D8001358FA /* Frameworks */,
 				D076B01A1CCED6D8001358FA /* Resources */,
+				3BA07F625997F9C67204BF5B /* 📦 Embed Pods Frameworks */,
+				74C70296965254D51A66E681 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D076B0361CCED6D8001358FA /* Build configuration list for PBXNativeTarget "BrandishJWPUITests" */;
 			buildPhases = (
+				6EA82DDFF65D69DFF55C89FD /* 📦 Check Pods Manifest.lock */,
 				D076B0231CCED6D8001358FA /* Sources */,
 				D076B0241CCED6D8001358FA /* Frameworks */,
 				D076B0251CCED6D8001358FA /* Resources */,
+				F7DFD69DB1198F0CD5A5DD1C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,6 +341,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BA07F625997F9C67204BF5B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandishJWPTests/Pods-BrandishJWPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E7E3AECAF753CA92209BCA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandishJWP/Pods-BrandishJWP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF5B80CF4022500297F4ADC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA82DDFF65D69DFF55C89FD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74C70296965254D51A66E681 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandishJWPTests/Pods-BrandishJWPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8B34BF2B8D6EA7B1901B10 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandishJWP/Pods-BrandishJWP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9203B0EAC24FDE41CF278467 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DFD69DB1198F0CD5A5DD1C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandishJWPUITests/Pods-BrandishJWPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D076AFFF1CCED6D7001358FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,7 +471,10 @@
 			files = (
 				D076B00E1CCED6D8001358FA /* ViewController.m in Sources */,
 				D076B00B1CCED6D8001358FA /* AppDelegate.m in Sources */,
+				D0C217241D3433E10002CC14 /* NSString+Sha1.m in Sources */,
 				D076B0081CCED6D8001358FA /* main.m in Sources */,
+				D0C217251D3433E10002CC14 /* Reachability.m in Sources */,
+				D0C217261D3433E10002CC14 /* RNCachingURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,13 +613,14 @@
 		};
 		D076B0311CCED6D8001358FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52983EC0F6D9E0855F54C6AB /* Pods-BrandishJWP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BrandishJWP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandish.BrandishJWP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -434,13 +628,14 @@
 		};
 		D076B0321CCED6D8001358FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4BBB9FAAF36642512117CD5 /* Pods-BrandishJWP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BrandishJWP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandish.BrandishJWP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -448,6 +643,7 @@
 		};
 		D076B0341CCED6D8001358FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0B09B8691C648386949127 /* Pods-BrandishJWPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BrandishJWPTests/Info.plist;
@@ -460,6 +656,7 @@
 		};
 		D076B0351CCED6D8001358FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D2B579C4EE3642D6593533 /* Pods-BrandishJWPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BrandishJWPTests/Info.plist;
@@ -472,6 +669,7 @@
 		};
 		D076B0371CCED6D8001358FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED31A8B1C81B745E8BA0125D /* Pods-BrandishJWPUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BrandishJWPUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -483,6 +681,7 @@
 		};
 		D076B0381CCED6D8001358FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5A8DB7C9F1BADC439AF80F /* Pods-BrandishJWPUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BrandishJWPUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
